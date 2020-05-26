@@ -6,5 +6,4 @@ Very simple background color changer when i statred learing html/css/js
 - CSS/SCSS
 - JS
 
-###
-watch it live:
+### Live
