@@ -7,4 +7,4 @@ Very simple background color changer when i statred learing html/css/js
 - JS
 
 ## Live
-https://p4wix.github.io/background-change-js
+https://p4wix.github.io/background-change-js/index.html
