@@ -1,0 +1,112 @@
+@import 'variables';
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $clr-grey-10;
+    line-height: 1.5;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.nav {
+    background-color: $clr-white;
+    display: grid;
+    align-items: center;
+    height: 7vh;
+    box-shadow: $dark-shadow;
+}
+
+.nav-center {
+    width: 70vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-center h3 {
+    color: $clr-primary-5;
+    letter-spacing: $spacing;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav .nav-center .nav-links {
+    list-style: none;
+}
+
+.nav a {
+    display: block;
+    letter-spacing: $spacing;
+    text-transform: capitalize;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px;
+    color: $clr-primary-1;
+}
+
+.nav a:hover {
+    color: $clr-primary-5;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+    min-height: calc(100vh - 7vh);
+
+    .containter {
+        text-align: center;
+        margin-bottom: 70px;
+
+        h2 {
+            background: $clr-black;
+            font-size: 2.5rem;
+            color: $clr-white;
+            padding: 1.5rem;
+            border-radius: $radius;
+            margin-bottom: 2.5rem;
+        }
+    }
+}
+
+.btn {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0.375rem 0.75rem;
+    letter-spacing: $spacing;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 0.875rem;
+    border: 2px solid #000;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: $radius;
+    transition: $transition;
+}
+
+.btn:hover {
+    color: $clr-white;
+    background: $clr-black;
+}
+
+.btn-hero {
+    font-size: 1rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.color {
+    color: $clr-primary-5;
+}
